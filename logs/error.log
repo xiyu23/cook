@@ -13,3 +13,4 @@
 2020/03/15 11:15:22 [error] 15124#6940: *1 CreateFile() "C:\Users\xiyu\Desktop\nginx server/html/cooking/components/DishThumb.vue" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /components/DishThumb.vue HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
 2020/03/15 11:19:43 [error] 15124#6940: *2 CreateFile() "C:\Users\xiyu\Desktop\nginx server/html/cooking/components/DishThumb.vue" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /components/DishThumb.vue HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
 2020/03/15 11:39:24 [notice] 12884#13996: signal process started
+2020/06/17 07:34:23 [emerg] 12652#9728: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
