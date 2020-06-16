@@ -2,13 +2,15 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld :msg="msg"/>
+    <Search v-model="searchText" />
     <DishThumbList :dishes="dishes" />
   </div>
 </template>
 
 <script>
-import DishThumbList from './components/DishThumbList.vue';
 import HelloWorld from './components/HelloWorld.vue'
+import Search from './components/Search.vue'
+import DishThumbList from './components/DishThumbList.vue'
 
 // config
 let recipes = [
@@ -54,6 +56,7 @@ export default {
   },
   components: {
     HelloWorld,
+    Search,
     DishThumbList,
   }
 }
